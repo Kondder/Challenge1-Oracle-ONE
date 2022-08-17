@@ -1,0 +1,27 @@
+--PRESENTACION--
+
+    ¡Hola! Mi nombre es Joaquin Cuello. Soy de Mendoza, Argentina. Tengo 21 años y soy un apasionado
+con pocos conocimientos del testing, automatizacion y los datos.
+
+    Espero que les guste mi encriptador y espero recibir todas las sugerencias y opiniones para 
+mejorar el codigo y mi desarrollo personal como programador.
+
+--SECCION 1: Aclaracion--
+El siguiente encriptador esta en una fase "beta". 
+
+--SECCION 2: Objetivo--
+
+El objetivo que me plantie al desarrollar el encriptador fue realizarlo con lo aprendido 
+en los cursos de Logica de Programacion 1-2 y presentarlo antes de el Live Coding del 
+dia 18 de agosto. 
+
+Contado algunas EXCEPCIONES como la funcion: .join(). La cual permite, en mi proyecto, hacer 
+el pasaje de array a string.
+
+--SECCION 2: Proximo mantenimiento--
+
+    1) Area donde se imprimira el texto.
+    2) Copiado de texto encriptado.
+    3) Estilo (CSS).
+
+¡Saludos!
