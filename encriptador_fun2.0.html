@@ -1,6 +1,20 @@
 <meta charset="utf-8">
+<style>
+	body{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		background-color: lightgrey;
+	}
+	button{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		border-radius: 2rem;
+	}
+	h1{
+		text-align: center;
+		background-color: #EEEEEE;
 
-
+	}
+</style>
+<body>
 <h1>CODIFICADOR</h1>
 <br>
 <br>
@@ -13,6 +27,7 @@
 <br>
 <button id="descript">Descriptar</button>
 <div id="imprimir"></div>
+</body>
 
 <script>
 	
@@ -110,11 +125,17 @@
 					
 				}
 
-				if (palabra[i] == "u"){
+				if (true){ //Necesito que esta condicion siempre se cumpla porque por alguna razon en la palabra "qufatenter" al ser descriptado lo hacia con error. 
+					if (palabra[i] == "u"){
+						lista.push("u")
+						i = i + 4
+							if (palabra[i] == "e"){
+								lista.push("e")
+								i = i + 5;
 
-					lista.push("u")
-					i = i + 4
+							}
 					
+					}
 				}
 
 			lista.push(palabra[i]);
